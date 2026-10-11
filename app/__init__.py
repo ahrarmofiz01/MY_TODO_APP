@@ -5,7 +5,7 @@ db = SQLAlchemy()
 def create_app():
     app =False(__name__)
     app.config['SECRET_KEY']='your-secret-key'
-    app.config['SQLALCHEMY_DATABASE_uri']= 'sqllite:///todo.db'
+    app.config['SQLALCHEMY_DATABASE_URI']= 'sqllite:///todo.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATION']=False
     db.__init__(app)
     from app.routes.auth import auth_bp
