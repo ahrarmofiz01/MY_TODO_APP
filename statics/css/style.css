@@ -104,4 +104,15 @@ footer p {
     border-radius: 4px;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: #007bff;
+
+}
+.task-box{
+    max-width: 700px;
+    margin: 40px auto;
+    background-color:  white;
+    padding:  25px;
+    border-radius: 8px;
+}
 
