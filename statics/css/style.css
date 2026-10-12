@@ -149,4 +149,38 @@ footer p {
     padding:  12px;
     border-bottom: 1px solid white;
 }
+.task-table th{
+    background-color: #f2f2f2;
+
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    font-family:  14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: red;
+}
+.badge{
+    padding:  5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color:  white;
+}
+.badge.pending{
+    background-color:  rgb(253, 215, 0);
+
+}
+.badge.working{
+    background-color: blueviolet;
+
+}
+.badge.done{
+    background-color: aquamarine;
+
+}
+
 
