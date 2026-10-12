@@ -182,5 +182,23 @@ footer p {
     background-color: aquamarine;
 
 }
-
-
+.btn-small{
+    font-size: 12px;
+    padding: 6px 12 px;
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-small:hover{
+    background-color: greenyellow;
+}
+.btn-clear{
+    background-color: red;
+    margin-bottom: 10px;
+}
+.btn-clear:hover{
+    background-color: red;
+    
+}
