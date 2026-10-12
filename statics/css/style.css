@@ -51,3 +51,30 @@ footer {
 footer p {
     margin: 0;
 }
+.flash.success{
+    color: green;
+}
+.flash.danger{
+    color: red;
+}
+.flash.info{
+    color: blue;
+}
+.login-box {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
