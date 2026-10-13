@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 #create database object globally
 db = SQLAlchemy()
 def create_app():
-    app =False(__name__)
+    app =Flask(__name__)
     app.config['SECRET_KEY']='your-secret-key'
     app.config['SQLALCHEMY_DATABASE_URI']= 'sqllite:///todo.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATION']=False
